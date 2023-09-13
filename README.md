@@ -5,6 +5,8 @@ Welcome to the Backup Script with Rsync documentation. This Bash script is desig
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Languages and Utilities Used](#languages-and-utilities-used)
+- [Environments Used](#environments-used)
 - [Requirements](#requirements)
 - [Usage](#usage)
   - [Running the Script](#running-the-script)
@@ -26,6 +28,23 @@ Creating regular backups is crucial to safeguard your data. This backup script s
 
 - **Input Validation**: The script ensures that valid source and target directories are provided before proceeding with the backup.
 
+## Languages and Utilities Used
+- **Bash**
+
+[<img align="left" alt="Bash Icon" width="50px" src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" />][bash]
+
+[bash]: https://www.gnu.org/software/bash/
+  <br><br><br>
+
+## Environments Used
+- **Linux**
+  
+[<img align="left" alt="Linux Icon" width="50px" src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" />][linux]
+
+[linux]: https://www.linux.org/
+
+  <br><br><br>
+  
 ## Requirements
 
 Before using the backup script, ensure that you have the following requirements in place:
@@ -63,7 +82,7 @@ The script starts by performing a dry-run backup. This allows you to review the 
 
 After confirming the dry-run, the script creates a backup directory within the target directory with the current date as the timestamp. This directory serves as the destination for the backup.
 
-### **_'rsync'_** Execution
+### 'rsync' Execution
 
 The **_'rsync'_** command is executed to copy the contents of the source directory to the target directory. It preserves timestamps and creates a backup of previous versions in a subdirectory within the target directory, organized by timestamps.
 
