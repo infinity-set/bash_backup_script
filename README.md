@@ -98,11 +98,11 @@ If you're ready to perform an actual backup (instead of a dry run), follow these
 
    **_rsync_options="-avb --backup-dir previous_versions/$current_date --delete --dry-run"_**
 
-to:
+   to:
 
    **_rsync_options="-avb --backup-dir previous_versions/$current_date --delete"_**
 
-4. Save the script.
+5. Save the script.
 
 Now, when you run the script as usual with **_'./backup_script.sh source_directory target_directory'_**, it will perform an **_actual_** backup, copying the data from the source directory to the target directory.
 
