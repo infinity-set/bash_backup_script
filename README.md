@@ -121,3 +121,8 @@ Before proceeding with an actual backup, consider the following:
 - Understand that the script will make changes to your file system, including deleting files and directories as specified by the **_'rsync'_** command options.
 
 By proceeding with an actual backup, you acknowledge the potential risks and accept responsibility for any changes made to your data. It is recommended to maintain regular backups and exercise caution when performing actions that affect your data integrity.
+
+
+#
+⬅️ **[Home](https://github.com/infinity-set)**
+
