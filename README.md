@@ -100,7 +100,7 @@ If you're ready to perform an actual backup (instead of a dry run), follow these
 
 to:
 
-**_rsync_options="-avb --backup-dir previous_versions/$current_date --delete"_**
+   **_rsync_options="-avb --backup-dir previous_versions/$current_date --delete"_**
 
 4. Save the script.
 
