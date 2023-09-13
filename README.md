@@ -108,7 +108,7 @@ Now, when you run the script as usual with **_'./backup_script.sh source_directo
 
 ## Disclaimer: Running an Actual Backup
 
-Performing an actual backup without a dry run involves copying data from the source directory to the target directory, making changes to your file system. It's important to exercise caution when executing this operation, as data loss or unintended changes can occur if not used carefully.
+Performing an actual backup ***without*** a dry run involves copying data from the source directory to the target directory, making changes to your file system. It's important to exercise caution when executing this operation, as data loss or unintended changes can occur if not used carefully.
 
 Before proceeding with an actual backup, consider the following:
 
