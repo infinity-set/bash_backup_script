@@ -63,7 +63,7 @@ The script starts by performing a dry-run backup. This allows you to review the 
 
 After confirming the dry-run, the script creates a backup directory within the target directory with the current date as the timestamp. This directory serves as the destination for the backup.
 
-### **_'rsync'_** Execution
+### 'rsync' Execution
 
 The **_'rsync'_** command is executed to copy the contents of the source directory to the target directory. It preserves timestamps and creates a backup of previous versions in a subdirectory within the target directory, organized by timestamps.
 
